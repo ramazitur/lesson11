@@ -1,0 +1,115 @@
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.headdiv {
+    width: 30vw;
+    height: 80vh;
+    border-radius: 10PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    background-color: rgb(215, 222, 227, 0.5);
+    backdrop-filter: blur(2px);
+    /* gap: 30px; */
+
+    
+}
+
+h1 {
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+   
+}
+
+.formdiv {
+    width: 70%;
+    height: 80%;
+    padding-top: 30PX;
+ 
+}
+
+.textdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px gray;
+    padding-top: 25PX;
+
+}
+.emaildiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding-top: 25PX;
+}
+.radiodiv{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 25PX;
+}
+
+.datediv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding-top: 25PX;
+}
+
+.countrydiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding-top: 25PX;
+}
+.ckeckdiv{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 25PX;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 45PX;
+
+}
+.butt1{
+    background-color: red;
+    border-radius: 5px;
+    width: 125px;
+    height: 30px;
+}
+.butt2{
+    background-color: green;
+    border-radius: 5px;
+    width: 125px;
+    height: 30px;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 3px solid gray;
+}
